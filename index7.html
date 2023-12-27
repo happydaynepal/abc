@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barista</title>
+
+    <Style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        padding: 10px;
+      }
+
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+      }
+
+
+
+      a {
+        text-decoration: none;
+        color: rgb(9, 0, 17);
+        font-size: 20px;
+        padding-left: 10px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+      }
+
+      img {
+        width: 100%;
+
+      }
+
+      .main-in {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        align-items: center;
+        margin: 25px 0;
+      }
+
+      .sample {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+        align-items: flex-start;
+        margin: 25px 0;
+      }
+
+      .grid1 {
+        padding: 20px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      }
+
+      .grid2 {
+        padding: 20px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      }
+
+      .grid3 {
+        padding: 20px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      }
+
+      @media(max-width:520px) {
+        .main-in {
+          grid-template-columns: 1fr;
+        }
+      }
+    </Style>
+
+
+  </head>
+
+  <body>
+
+    <div class="header">
+      <h1>Sample Grid</h1>
+      <nav>
+        <a href="">HOME</a>
+        <a href="">ABOUT</a>
+        <a href="">CONTACT</a>
+      </nav>
+    </div>
+    <!-- --------------------------------- -->
+
+    <div class="main-in">
+      <div class="main-img">
+
+        <img
+          src="https://images.unsplash.com/photo-1682687982470-8f1b0e79151a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="">
+      </div>
+      <div class="main-info">
+        <h3>Sample Main Info</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa maxime ut quos iusto voluptas nemo,
+          perferendis molestias deserunt nihil sit provident magnam rem velit officia, inventore minima? Deleniti
+          pariatur doloribus saepe, voluptatem praesentium alias placeat consequuntur ea perspiciatis, error possimus
+          autem inventore cupiditate repellat voluptates neque magnam est provident dolor.</p>
+      </div>
+
+    </div>
+
+
+
+    <!-- --------------------------------- -->
+    <div class="sample">
+      <div class="grid1">
+
+
+        <h2>Sample Grid 1</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, fuga exercitationem nam molestiae aliquid amet
+          dignissimos nulla, nobis voluptas excepturi facere iste expedita doloribus non dicta maiores eligendi, eaque
+          atque asperiores sint sapiente fugit! Iusto eaque quasi iure voluptatum facere, veritatis quo voluptatibus,
+          recusandae quis fugiat totam. Ipsa, saepe! Autem.</p>
+      </div>
+
+      <!-- --------------------------------- -->
+      <div class="grid2">
+        <h2>Sample Grid 2</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea unde dolor facilis dolore non magnam consectetur
+          possimus? Modi perspiciatis sunt sequi mollitia, non doloremque maiores distinctio nemo molestias illo
+          accusamus perferendis eos ipsa! Sit eligendi ipsa reprehenderit hic ad. A vero at rerum dignissimos aliquid
+          debitis similique repellat, nulla natus?</p>
+      </div>
+      <!-- --------------------------------- -->
+      <div class="grid3">
+        <h2>Sample Grid 3</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum quae rem consequatur perspiciatis, omnis non?
+          Voluptates dolore nam a sunt officia corrupti voluptas iusto quidem facilis, provident repellendus, asperiores
+          sapiente eligendi pariatur. Minima, dolorum veritatis reiciendis ipsum nisi quia nam, placeat vel doloremque
+          odio tenetur? Facere at est temporibus consequatur.</p>
+      </div>
+
+
+    </div>
+
+
+  </body>
+
+</html>

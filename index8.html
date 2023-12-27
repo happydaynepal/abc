@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website home page</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+
+      .title {
+        padding: 18px;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        color: white;
+        background-color: rgb(23, 43, 61);
+      }
+
+      a {
+        text-decoration: none;
+        color: rgb(238, 234, 241);
+        font-size: 20px;
+        padding-left: 10px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+      }
+
+      .MainA {
+        color: white;
+        background-color: rgb(23, 43, 61);
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 10px;
+        padding: 10px;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+        padding: 5px;
+      }
+
+      .MainB {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 100px;
+        margin: 20px;
+        gap: 15px;
+        color: black;
+      }
+
+
+
+      .Rating {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        margin-top: 100px;
+        margin: 20px;
+        gap: 15px;
+        color: black;
+
+      }
+
+      .img R {
+        border-radius: 50%;
+
+      }
+
+
+      .R {
+
+
+
+        background-color: rgb(23, 43, 61);
+        color: white;
+        border-radius: 10px;
+        padding: 15px;
+
+
+      }
+
+
+
+
+
+      @media(max-width: 730px) {
+        .MainB {
+          grid-template-columns: repeat(3, 1fr);
+        }
+      }
+
+      @media(max-width: 620px) {
+        .MainB {
+          grid-template-columns: repeat(2, 1fr);
+          gap: 15px;
+        }
+      }
+
+      @media(max-width: 520px) {
+        .MainA {
+          grid-template-columns: 1fr;
+        }
+
+      }
+    </style>
+  </head>
+  <!-- ---------------------------------------------------------------------- -->
+
+  <body>
+    <div class="title">
+      <h1>Coffee Training Nepal</h1>
+      <nav>
+
+        <a href="About">About</a>
+        <a href="Contact">Contact</a>
+      </nav>
+    </div>
+
+    <!------------------------------>
+
+    <div class="MainA">
+
+      <div class="MA1">
+
+        <H1>Learn Any Coffee Skill of Your Choice Today</H1>
+        <h3>Over 6 Years of experience in feild & over 10000 Students Already Trained and working around the world.</h3>
+        <br>
+        <Form action="mailto:Happydaynepal@gmail.com" method="Post">
+
+          <p>
+            <label for="mail"></label>
+            <input name="mail" placeholder="Enter Your Email Address" type="Email" required id="mail">
+            <button>Start Learnig</button>
+          </p>
+        </Form>
+        <br>
+        <h4>Try out our Awesome Course. No Risk, No Credit Card Required</h4>
+
+      </div>
+
+      <div class="MA2">
+        <img
+          src="https://images.unsplash.com/photo-1507914372368-b2b085b925a1?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="">
+
+      </div>
+    </div>
+    </div>
+
+    <!------------------------------>
+
+    <div class="MainB">
+      <div class="b1">
+        <span style='font-size:40px;'>&#128194;</span>
+        <br>
+        <h3>Basic Barista</h3>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat hic tempore mollitia dolorum ipsa sapiente
+          ratione corrupti, cumque voluptatum sed nostrum excepturi asperiores itaque, perspiciatis laborum alias
+          blanditiis nam laboriosam?</p>
+      </div>
+
+      <!------------------------------>
+
+      <div class="b2">
+        <span style='font-size:40px;'>&#128194;</span>
+        <h3>Advance Barista</h3>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat hic tempore mollitia dolorum ipsa sapiente
+          ratione corrupti, cumque voluptatum sed nostrum excepturi asperiores itaque, perspiciatis laborum alias
+          blanditiis nam laboriosam?</p>
+      </div>
+
+      <!------------------------------>
+
+      <div class="b3">
+        <span style='font-size:40px;'>&#128194;</span>
+        <h3>Professional Barista</h3>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat hic tempore mollitia dolorum ipsa sapiente
+          ratione corrupti, cumque voluptatum sed nostrum excepturi asperiores itaque, perspiciatis laborum alias
+          blanditiis nam laboriosam?</p>
+      </div>
+    </div>
+
+    <!--------------------------------------------------------------------------------------------------------------------------------->
+
+    <div class="Rating">
+      <!-- ------------------------------ -->
+      <div class="R">
+
+        <div class="ra">
+          <img src="https://i.pinimg.com/474x/9c/41/13/9c4113d10fbc53458bf2756cc5a875b8.jpg" alt="messi" width="50px"
+            height="50px">
+        </div>
+
+        <div class="rb">
+          <br>
+          <H3 bold> Mr. Messi 1</H3>
+          <h4>Footballer</h4>
+        </div>
+
+        <div class="rc">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora dolor voluptatibus, illo nostrum
+            molestias
+            commodi.</p>
+        </div>
+      </div>
+
+      <!-- ------------------------------ -->
+      <div class="R">
+
+        <div class="ra">
+          <img src="https://i.pinimg.com/474x/9c/41/13/9c4113d10fbc53458bf2756cc5a875b8.jpg" alt="messi" width="50px"
+            height="50px">
+        </div>
+
+        <div class="rb">
+          <br>
+          <H3 bold> Mr. Messi 2</H3>
+          <h4>Footballer 2</h4>
+        </div>
+
+        <div class="rc">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora dolor voluptatibus, illo nostrum
+            molestias
+            commodi.</p>
+        </div>
+      </div>
+
+      <!-- ------------------------------ -->
+      <div class="R">
+
+        <div class="ra">
+          <img src="https://i.pinimg.com/474x/9c/41/13/9c4113d10fbc53458bf2756cc5a875b8.jpg" alt="messi" width="50px"
+            height="50px">
+        </div>
+
+        <div class="rb">
+          <br>
+          <H3 bold> Mr. Messi 3</H3>
+          <h4>Footballer 3</h4>
+        </div>
+
+        <div class="rc">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora dolor voluptatibus, illo nostrum
+            molestias
+            commodi.</p>
+        </div>
+      </div>
+
+      <!-- ------------------------------ -->
+      <div class="R">
+
+        <div class="ra">
+          <img src="https://i.pinimg.com/474x/9c/41/13/9c4113d10fbc53458bf2756cc5a875b8.jpg" alt="messi" width="50px"
+            height="50px">
+        </div>
+
+        <div class="rb">
+          <br>
+          <H3 bold> Mr. Messi 4</H3>
+          <h4>Footballer 4</h4>
+        </div>
+
+        <div class="rc">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora dolor voluptatibus, illo nostrum
+            molestias
+            commodi.</p>
+        </div>
+      </div>
+      <!-- ------------------------------ -->
+      <div class="R">
+
+        <div class="ra">
+          <img src="https://i.pinimg.com/474x/9c/41/13/9c4113d10fbc53458bf2756cc5a875b8.jpg" alt="messi" width="50px"
+            height="50px">
+        </div>
+
+        <div class="rb">
+          <br>
+          <H3 bold> Mr. Messi 5</H3>
+          <h4>Footballer 5</h4>
+        </div>
+
+        <div class="rc">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora dolor voluptatibus, illo nostrum
+            molestias
+            commodi.</p>
+        </div>
+      </div>
+
+      <!-- ------------------------------ -->
+      <div class="R">
+
+        <div class="ra">
+          <img src="https://i.pinimg.com/474x/9c/41/13/9c4113d10fbc53458bf2756cc5a875b8.jpg" alt="messi" width="50px"
+            height="50px">
+        </div>
+
+        <div class="rb">
+          <br>
+          <H3 bold> Mr. Messi 6</H3>
+          <h4>Footballer 6</h4>
+        </div>
+
+        <div class="rc">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora dolor voluptatibus, illo nostrum
+            molestias
+            commodi.</p>
+        </div>
+      </div>
+
+      <!-- ------------------------------ -->
+      <div class="R">
+
+        <div class="ra">
+          <img src="https://i.pinimg.com/474x/9c/41/13/9c4113d10fbc53458bf2756cc5a875b8.jpg" alt="messi" width="50px"
+            height="50px">
+        </div>
+
+        <div class="rb">
+          <br>
+          <H3 bold> Mr. Messi 7</H3>
+          <h4>Footballer 7</h4>
+        </div>
+
+        <div class="rc">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora dolor voluptatibus, illo nostrum
+            molestias
+            commodi.</p>
+        </div>
+      </div>
+
+      <!-- ------------------------------ -->
+      <div class="R">
+
+        <div class="ra">
+          <img src="https://i.pinimg.com/474x/9c/41/13/9c4113d10fbc53458bf2756cc5a875b8.jpg" alt="messi" width="50px"
+            height="50px">
+        </div>
+
+        <div class="rb">
+          <br>
+          <H3 bold> Mr. Messi 8</H3>
+          <h4>Footballer 8</h4>
+        </div>
+
+        <div class="rc">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora dolor voluptatibus, illo nostrum
+            molestias
+            commodi.</p>
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+  </body>
+
+</html>
