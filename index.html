@@ -4,281 +4,364 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Animepedia</title>
-  </head>
+    <title>website home page</title>
 
-  <body>
-
-    <!-- This is Heading -->
-    <h1 style="background-color:SlateBlue;"><a name="Animepedia">AnimePedia</a></h1>
-
-
-    <!-- This is Table -->
     <style>
-      table,
-      th,
-      td {
-        border: 1px solid rgb(53, 6, 207);
+      * {
+        margin: 0;
+        padding: 0px;
+        box-sizing: border-box;
       }
 
-      th,
-      td {
+      .title {
+        padding: 18px;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        color: white;
+        background-color: rgb(23, 43, 61);
+      }
+
+      a {
+        text-decoration: none;
+        color: rgb(238, 234, 241);
+        font-size: 20px;
+        padding-left: 10px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+      }
+
+      .MainA {
+        color: white;
+        background-color: rgb(23, 43, 61);
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 10px;
         padding: 10px;
       }
+
+      img {
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+        padding: 5px;
+      }
+
+      .MainB {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 100px;
+        margin: 20px;
+        gap: 15px;
+        color: black;
+      }
+
+
+
+      .Rating {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        margin-top: 100px;
+        margin: 20px;
+        gap: 15px;
+        color: black;
+
+      }
+
+      .img R {
+        border-radius: 50%;
+
+      }
+
+
+      .R {
+
+
+
+        background-color: rgb(23, 43, 61);
+        color: white;
+        border-radius: 10px;
+        padding: 15px;
+
+
+      }
+
+
+
+
+
+      @media(max-width: 730px) {
+        .MainB {
+          grid-template-columns: repeat(3, 1fr);
+        }
+      }
+
+      @media(max-width: 620px) {
+        .MainB {
+          grid-template-columns: repeat(2, 1fr);
+          gap: 15px;
+        }
+      }
+
+      @media(max-width: 520px) {
+        .MainA {
+          grid-template-columns: 1fr;
+        }
+
+      }
     </style>
-    </head>
+  </head>
+  <!-- ---------------------------------------------------------------------- -->
 
-    <body>
+  <body>
+    <div class="title">
+      <h1>Coffee Training Nepal</h1>
+      <nav>
 
+        <a href="About">About</a>
+        <a href="Contact">Contact</a>
+      </nav>
+    </div>
 
-      <!-- Adding Table -->
+    <!------------------------------>
 
-      <table>
-        <tr>
-          <th><strong><a href="#One Piece">One Piece</a></strong></th>
-          <th><strong><a href="#Dragon Ball">Dragon Ball</a></strong></th>
-          <th><strong><a href="#Naruto">Naruto</a></strong></th>
-          <th><strong><a href="#My Hero Academia">My Hero Academia</a></strong></th>
-        </tr>
-      </table>
+    <div class="MainA">
 
-      <table style="float:right">
-        <tr>
-          <th><strong><a href="#The End">Down</a></strong></th>
+      <div class="MA1">
 
-        </tr>
-      </table>
-      <!-- This is Sub Heading -->
-      <H2>Japanese Anime History</H2>
-      <p>&nbsp; &nbsp; &nbsp; &nbsp;The history of anime can be traced back to the start of the 20th century, with the
-        earliest verifiable films dating from 1912.
-        Before the advent of film, Japan already had a rich tradition of entertainment with colourful painted figures
-        moving across the
-        projection screen utsushi-e
-        In the 1950s, anime studios began appearing across Japan. Hiroshi Takahata bought a studio named Japan Animated
-        Films in 1948,
-        renaming it Tōei Dōga.</p>
+        <H1>Learn Any Coffee Skill of Your Choice Today</H1>
+        <h3>Over 6 Years of experience in feild & over 10000 Students Already Trained and working around the world.</h3>
+        <br>
+        <Form action="mailto:Happydaynepal@gmail.com" method="Post">
 
+          <p>
+            <label for="mail"></label>
+            <input name="mail" placeholder="Enter Your Email Address" type="Email" required id="mail">
+            <button>Start Learnig</button>
+          </p>
+        </Form>
+        <br>
+        <h4>Try out our Awesome Course. No Risk, No Credit Card Required</h4>
 
+      </div>
 
-      <!-- This is One Piece -->
+      <div class="MA2">
+        <img
+          src="https://images.unsplash.com/photo-1507914372368-b2b085b925a1?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="">
 
-      <h3> <a name="One Piece">One Piece</a></h3>
+      </div>
+    </div>
+    </div>
 
-      <table>
+    <!------------------------------>
 
-        <tr>
-          <td><img src="/Assets/Image/luffy.jpg" alt="anime" height=300px; width="200px"></td>
-          <td>
+    <div class="MainB">
+      <div class="b1">
+        <span style='font-size:40px;'>&#128194;</span>
+        <br>
+        <h3>Basic Barista</h3>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat hic tempore mollitia dolorum ipsa sapiente
+          ratione corrupti, cumque voluptatum sed nostrum excepturi asperiores itaque, perspiciatis laborum alias
+          blanditiis nam laboriosam?</p>
+      </div>
 
-            <p>One Piece is a Japanese manga series written and illustrated by Eiichiro Oda. It has been serialized in
-              Shueisha's shōnen manga magazine Weekly Shōnen Jump since July 1997, with its individual chapters compiled
-              into 107 tankōbon volumes as of November 2023.</p>
-            <ul>
-              <li>Episope 1</li> <a href="https://anitaku.to/one-piece-episode-1" target="_blank">Watch Now</a>
-              <li>Episode 2</li> <a href="https://anitaku.to/one-piece-episode-2" target="_blank">Watch Now</a>
-              <li>Episode 3</li> <a href="https://anitaku.to/one-piece-episode-3" target="_blank">Watch Now</a>
-              <li>Episode 4</li> <a href="https://anitaku.to/one-piece-episode-4" target="_blank">Watch Now</a>
-            </ul>
-            <a href="https://anitaku.to/category/one-piece" target="_blank">Click to Watch</a>
-          </td>
-        </tr>
+      <!------------------------------>
 
-        <tr>
-          <td><img src="/Assets/Image/luffy2.jpg" alt="anime" height=300px; width="200px"></td>
-          <td>
-            <iframe width="550" height="305" src="https://www.youtube.com/embed/Ecx2J6NNHWs?si=M1-tFHR_dZEHp_3o"
-              title="YouTube video player" frameborder="0"
-              allow="accelerometer; autoplay; muted; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen></iframe>
-          </td>
+      <div class="b2">
+        <span style='font-size:40px;'>&#128194;</span>
+        <h3>Advance Barista</h3>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat hic tempore mollitia dolorum ipsa sapiente
+          ratione corrupti, cumque voluptatum sed nostrum excepturi asperiores itaque, perspiciatis laborum alias
+          blanditiis nam laboriosam?</p>
+      </div>
 
-        </tr>
+      <!------------------------------>
 
-      </table>
+      <div class="b3">
+        <span style='font-size:40px;'>&#128194;</span>
+        <h3>Professional Barista</h3>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat hic tempore mollitia dolorum ipsa sapiente
+          ratione corrupti, cumque voluptatum sed nostrum excepturi asperiores itaque, perspiciatis laborum alias
+          blanditiis nam laboriosam?</p>
+      </div>
+    </div>
 
-      <!-- Up Down Botton -->
-      <table style="float:right">
-        <tr>
-          <th><strong><a href="#Animepedia">Up</a></strong></th>
+    <!--------------------------------------------------------------------------------------------------------------------------------->
 
-        </tr>
-        <tr>
-          <th><strong><a href="#The End">Down</a></strong></th>
+    <div class="Rating">
+      <!-- ------------------------------ -->
+      <div class="R">
 
-        </tr>
-      </table>
+        <div class="ra">
+          <img src="https://i.pinimg.com/474x/9c/41/13/9c4113d10fbc53458bf2756cc5a875b8.jpg" alt="messi" width="50px"
+            height="50px">
+        </div>
 
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <hr size="10px" color="Purple">
+        <div class="rb">
+          <br>
+          <H3 bold> Mr. Messi 1</H3>
+          <h4>Footballer</h4>
+        </div>
 
-      <!-- This is Dragon Ball -->
+        <div class="rc">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora dolor voluptatibus, illo nostrum
+            molestias
+            commodi.</p>
+        </div>
+      </div>
 
-      <h3> <a name="Dragon Ball">Dragon Ball</a></h3>
+      <!-- ------------------------------ -->
+      <div class="R">
 
-      <table>
-        <tr>
-          <td>
-            <img src="/Assets/Image/dragon 1.jpg" alt="anime" height=300px; width="200px">
-          </td>
-          <td>
-            <p>Originally serialized in Shueisha's shōnen manga magazine Weekly Shōnen Jump from 1984 to 1995, the 519
-              individual chapters were printed in 42 tankōbon volumes. Dragon Ball was inspired by the Chinese novel
-              Journey to the West and Hong Kong martial arts films.</p>
-            <ul>
-              <li>Episope 1</li> <a href="https://anitaku.to/dragon-ball-episode-1" target="_blank">Watch Now</a>
-              <li>Episode 2</li> <a href="https://anitaku.to/dragon-ball-episode-2" target="_blank">Watch Now</a>
-              <li>Episode 3</li> <a href="https://anitaku.to/dragon-ball-episode-3" target="_blank">Watch Now</a>
-              <li>Episode 4</li> <a href="https://anitaku.to/dragon-ball-episode-4" target="_blank">Watch Now</a>
-            </ul>
-            <a href="https://anitaku.to/category/one-piece" target="_blank">Click to Watch</a>
-          </td>
-        </tr>
+        <div class="ra">
+          <img src="https://i.pinimg.com/474x/9c/41/13/9c4113d10fbc53458bf2756cc5a875b8.jpg" alt="messi" width="50px"
+            height="50px">
+        </div>
 
-        <tr>
-          <td><img src="/Assets/Image/dragon ball.jpg" alt="anime" height=300px; width="200px"></td>
-          <td>
-            <iframe width="550" height="305" src="https://www.youtube.com/embed/s4h1emkRWwM?si=bsKNkK90TdM5SFnF"
-              title="YouTube video player" frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen></iframe>
-          </td>
+        <div class="rb">
+          <br>
+          <H3 bold> Mr. Messi 2</H3>
+          <h4>Footballer 2</h4>
+        </div>
 
-        </tr>
+        <div class="rc">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora dolor voluptatibus, illo nostrum
+            molestias
+            commodi.</p>
+        </div>
+      </div>
 
-      </table>
+      <!-- ------------------------------ -->
+      <div class="R">
 
-      <!-- Up Down Botton -->
-      <table style="float:right">
-        <tr>
-          <th><strong><a href="#Animepedia">Up</a></strong></th>
+        <div class="ra">
+          <img src="https://i.pinimg.com/474x/9c/41/13/9c4113d10fbc53458bf2756cc5a875b8.jpg" alt="messi" width="50px"
+            height="50px">
+        </div>
 
-        </tr>
-        <tr>
-          <th><strong><a href="#The End">Down</a></strong></th>
+        <div class="rb">
+          <br>
+          <H3 bold> Mr. Messi 3</H3>
+          <h4>Footballer 3</h4>
+        </div>
 
-        </tr>
-      </table>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <hr size="10px" color="Purple">
+        <div class="rc">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora dolor voluptatibus, illo nostrum
+            molestias
+            commodi.</p>
+        </div>
+      </div>
 
+      <!-- ------------------------------ -->
+      <div class="R">
 
-      <!-- This is Naruto -->
+        <div class="ra">
+          <img src="https://i.pinimg.com/474x/9c/41/13/9c4113d10fbc53458bf2756cc5a875b8.jpg" alt="messi" width="50px"
+            height="50px">
+        </div>
 
+        <div class="rb">
+          <br>
+          <H3 bold> Mr. Messi 4</H3>
+          <h4>Footballer 4</h4>
+        </div>
 
+        <div class="rc">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora dolor voluptatibus, illo nostrum
+            molestias
+            commodi.</p>
+        </div>
+      </div>
+      <!-- ------------------------------ -->
+      <div class="R">
 
-      <h3> <a name="Naruto">Naruto</a></h3>
+        <div class="ra">
+          <img src="https://i.pinimg.com/474x/9c/41/13/9c4113d10fbc53458bf2756cc5a875b8.jpg" alt="messi" width="50px"
+            height="50px">
+        </div>
 
-      <table>
-        <tr>
-          <td><img src="Assets/Image/Naruto.jpg" alt="anime" height=300px; width="200px"></td>
-          <td>
-            <p>Originally serialized in Shueisha's shōnen manga magazine Weekly Shōnen Jump from 1984 to 1995, the 519
-              individual chapters were printed in 42 tankōbon volumes. Dragon Ball was inspired by the Chinese novel
-              Journey to the West and Hong Kong martial arts films.</p>
-            <ul>
-              <li>Episope 1</li> <a href="https://anitaku.to/naruto-episode-1" target="_blank">Watch Now</a>
-              <li>Episode 2</li> <a href="https://anitaku.to/naruto-episode-2" target="_blank">Watch Now</a>
-              <li>Episode 3</li> <a href="https://anitaku.to/naruto-episode-3" target="_blank">Watch Now</a>
-              <li>Episode 4</li> <a href="https://anitaku.to/naruto-episode-4" target="_blank">Watch Now</a>
-            </ul>
-            <a href="https://anitaku.to/category/naruto" target="_blank">Click to Watch</a>
-          </td>
-        </tr>
+        <div class="rb">
+          <br>
+          <H3 bold> Mr. Messi 5</H3>
+          <h4>Footballer 5</h4>
+        </div>
 
-        <tr>
-          <td><img src="Assets/Image/naruto 1.jpg" alt="anime" height=300px; width="200px"></td>
-          <td>
-            <iframe width="550" height="305"
-              src="https://www.youtube.com/embed/QxbOqeWn3jo?si=ktSGr8Nj7-p7Bn8d&amp;start=849" frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; gyroscope; picture-in-picture; web-share"
-              allowfullscreen></iframe>
-          </td>
-        </tr>
+        <div class="rc">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora dolor voluptatibus, illo nostrum
+            molestias
+            commodi.</p>
+        </div>
+      </div>
 
-      </table>
+      <!-- ------------------------------ -->
+      <div class="R">
 
-      <!-- Up Down Botton -->
-      <table style="float:right">
-        <tr>
-          <th><strong><a href="#Animepedia">Up</a></strong></th>
+        <div class="ra">
+          <img src="https://i.pinimg.com/474x/9c/41/13/9c4113d10fbc53458bf2756cc5a875b8.jpg" alt="messi" width="50px"
+            height="50px">
+        </div>
 
-        </tr>
-        <tr>
-          <th><strong><a href="#The End">Down</a></strong></th>
+        <div class="rb">
+          <br>
+          <H3 bold> Mr. Messi 6</H3>
+          <h4>Footballer 6</h4>
+        </div>
 
-        </tr>
-      </table>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <hr size="10px" color="Purple">
+        <div class="rc">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora dolor voluptatibus, illo nostrum
+            molestias
+            commodi.</p>
+        </div>
+      </div>
 
+      <!-- ------------------------------ -->
+      <div class="R">
 
-      <!-- This is My Hero Academia -->
+        <div class="ra">
+          <img src="https://i.pinimg.com/474x/9c/41/13/9c4113d10fbc53458bf2756cc5a875b8.jpg" alt="messi" width="50px"
+            height="50px">
+        </div>
 
-      <h3> <a name="My Hero Academia">My Hero Academia </a></h3>
+        <div class="rb">
+          <br>
+          <H3 bold> Mr. Messi 7</H3>
+          <h4>Footballer 7</h4>
+        </div>
 
-      <table>
-        <tr>
-          <td><img src="Assets/Image/my-hero-academia 1.jpg" alt="anime" height=300px; width="200px"> </td>
-          <td>
-            <p>Originally serialized in Shueisha's shōnen manga magazine Weekly Shōnen Jump from 1984 to 1995, the 519
-              individual chapters were printed in 42 tankōbon volumes. Dragon Ball was inspired by the Chinese novel
-              Journey to the West and Hong Kong martial arts films.</p>
-            <ul>
-              <li>Episope 1</li> <a href="https://anitaku.to/boku-no-hero-academia-episode-1" target="_blank">Watch
-                Now</a>
-              <li>Episode 2</li> <a href="https://anitaku.to/boku-no-hero-academia-episode-2" target="_blank">Watch
-                Now</a>
-              <li>Episode 3</li> <a href="https://anitaku.to/boku-no-hero-academia-episode-3" target="_blank">Watch
-                Now</a>
-              <li>Episode 4</li> <a href="https://anitaku.to/boku-no-hero-academia-episode-4" target="_blank">Watch
-                Now</a>
-            </ul>
-            <a href="https://anitaku.to/category/boku-no-hero-academia" target="_blank">Click to Watch</a>
-        </tr>
+        <div class="rc">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora dolor voluptatibus, illo nostrum
+            molestias
+            commodi.</p>
+        </div>
+      </div>
 
-        <tr>
-          <td><img src="Assets/Image/my-hero-academia.jpg" alt="anime" height=300px; width="200px"></td>
-          <td>
-            <iframe width="560" height="315"
-              src="https://www.youtube.com/embed/7ez0AjMYvek?si=8tQUUoSRI30quHAl&amp;controls=0"
-              title="YouTube video player" frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;" allowfullscreen></iframe>
-          </td>
-        </tr>
+      <!-- ------------------------------ -->
+      <div class="R">
 
-      </table>
+        <div class="ra">
+          <img src="https://i.pinimg.com/474x/9c/41/13/9c4113d10fbc53458bf2756cc5a875b8.jpg" alt="messi" width="50px"
+            height="50px">
+        </div>
 
-      <!-- Up Down Botton -->
-      <table style="float:right">
-        <tr>
-          <th><strong><a href="#Animepedia">Up</a></strong></th>
+        <div class="rb">
+          <br>
+          <H3 bold> Mr. Messi 8</H3>
+          <h4>Footballer 8</h4>
+        </div>
 
-        </tr>
-      </table>
-      <br>
-      <br>
-      <br>
-      <br>
-      <hr size="10px" color="Purple">
+        <div class="rc">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora dolor voluptatibus, illo nostrum
+            molestias
+            commodi.</p>
+        </div>
+      </div>
 
-
-
-
-      <br>
-
+    </div>
 
 
 
@@ -287,9 +370,8 @@
 
 
 
-      <!-- This Is End Of Page -->
-      <a name="The End"></a>
 
-    </body>
+
+  </body>
 
 </html>
